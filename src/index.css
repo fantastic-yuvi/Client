@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+    font-family:'Raleway',sans-serif;
+  }
+  .custom-img{
+  background-image: url('./media/13403520_5238984.png');
+  
+  }
+  .purple{
+    background-image: url('./media/img.jpg');
+
+  }
+  .userpage{
+    background-image:url('./media/39632.jpg') ;
+  }
+  @layer utilities{
+    .text-gradient{
+      background-clip:text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
